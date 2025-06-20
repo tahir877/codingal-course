@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Forms in HTML</title>
+    </head>
+
+    <body>
+        <h1>Personal detail form</h1>
+        <form>
+            <fieldset> <!--The feildset tag is used to group related
+            element in a form and draws a box around them-->
+
+            <lable>Name:</lable>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+            <lable>Email Id:</lable>
+            <input type="email" id="email" placeholder="Enter Email Id"><br><br>
+
+            <label>Contact Number:</label>
+            <input type="tel" id="contact" placeholder="Enter your Contact Number"><br><br>
+
+            <label>BirthDay:</label>
+            <input type="date" id="Birthday"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female">Female<br>
+            <!--Name is used to group multiple radio buttons
+            together-->
+            <!--Value specifies the actual data sent to the server
+            when the form is submitted-->
+            <input type="radio" id="Male" name="Gender" value="Male">Male<br><br>
+
+            <label>Favourite city:</label><br>
+            <input type="checkbox" id="city1" name="Favourite city"
+            value="New Delhi">New Delhi<br>
+             <input type="checkbox" id="city2" name="Favourite city"
+            value="Mumbai">Mumbai<br>
+
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
