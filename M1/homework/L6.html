@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Forms in HTML</title>
+    </head>
+
+    <body>
+        <h1>Personal detail form</h1>
+        <form>
+            <fieldset> <!--The feildset tag is used to group related
+            element in a form and draws a box around them-->
+
+            <lable>Name:</lable>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+            <lable>Email Id:</lable>
+            <input type="email" id="email" placeholder="Enter Email Id"><br><br>
+
+            <label>Age:</label>
+            <input type="age" id="age" placeholder="Enter your Age"><br><br>
+
+            <label>BirthDay:</label>
+            <input type="date" id="Birthday"><br><br>
+
+            <label>Address:</label>
+            <input type="Area" id="Adress" placeholder="Enter your address"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female">Female<br>
+            <!--Name is used to group multiple radio buttons
+            together-->
+            <!--Value specifies the actual data sent to the server
+            when the form is submitted-->
+            <input type="radio" id="Male" name="Gender" value="Male">Male<br><br>
+
+            <label>Favourite Sport:</label><br>
+            <input type="radio" id="Cricket" name="Sport" value="Cricket">Cricket<br>
+            <input type="radio" id="Football" name="Sport" value="Football">Football<br><br>
+
+
+            <label>Favourite Food:</label><br>
+            <input type="radio" id="food1" name="Favourite food"
+            value="pizza">Pizza<br>
+             <input type="radio" id="food2" name="Favourite food"
+            value="burger">Burger<br>
+
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
