@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Box Model Example</title>
+
+        <style>
+            .example1 {
+                background-color: rgb(247, 41, 75);
+                padding: 10px 10px 10px 10px;
+                border: 2px dashed black;
+                margin: 30px;
+
+            }
+
+            .example2 {
+                width: 150px;
+                height: 90px;
+                background-color: rgb(102, 14, 202);
+                padding: 20px 40px;
+                border: 4px solid black;
+                margin: 200px 30px 30px 40px;
+            }
+
+            img#waterfallright {
+                float: right;
+            }
+
+            img#waterfallleft {
+                float: left;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h2>Float Right</h2>
+
+        <p>
+            In this example, the image will float to the right in the paragraph, and text in the
+            paragraph will wrap around the image
+        </p>
+
+        <p>
+            <img id="waterfallright" src="waterfall.jpg" alt="waterfall" style="width: 150px;height: 150px;">
+
+            <img id="waterfallleft" src="waterfall.jpg" alt="waterfall" style="width: 150px;height: 150px;">
+
+            This is a dummy content used to understand float property
+
+
+       
+        
+        <hr style="width: 100%; height: 2px; background-color: blue;" >
+        <div class="example1">My Content Example 1</div>
+        <div class="example2">My Content Example 2</div>
+
+        
+    </body>
+</html>

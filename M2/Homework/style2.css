@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', 'sans-serif';
+    background-color: black;
+    color: hsl(210, 26%, 73%);
+}
+
+h1 {
+    color: #1bd0dd;
+    text-transform: capitalize; /* Optional: makes heading consistent */
+}
+
+a {
+    color: #30c40c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1f6feb;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: #222933;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color: #4f8cc9;
+}
+
+/* Corrected invalid selector */
+ul li:nth-child(3) {
+    background-color: #21262d;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "🚀 ";
+}
+
+a::after {
+    content: " 🛸";
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #ff7300;
+}
